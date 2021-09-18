@@ -4,6 +4,10 @@
     --black-color:#000;
     --text-color: #333;
     --border-color: #dbdbdb;
+
+    --nav-height: 28px;
+    --header-height: 120px;
+    --header-with-search-height: calc(var(--header-height) - var(--nav-height))
 }
 
 *  {
@@ -116,3 +120,4 @@ html {
     color: #ccc;
     background-color: #999;
 }
+
